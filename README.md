@@ -13,7 +13,6 @@ Git clone https://github.com/rhymsc/asdddd.git
 ## Usage
 
 ```python
-import foobar
-
 # git clone 
 https://github.com/rhymsc/asdddd.git
+```

